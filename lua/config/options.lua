@@ -54,14 +54,3 @@ vim.opt.inccommand = "split" -- Live preview of substitution
 -- Syntax highlighting
 vim.opt.syntax = "on"   -- Enable syntax highlighting
 vim.opt.synmaxcol = 240 -- Maximum column for syntax highlighting
-
--- Custom settings
-vim.g.have_nerd_font = false      -- Custom variable for nerd fonts
-vim.g.loaded_python_provider = 0  -- Disable python provider
-vim.g.loaded_python3_provider = 0 -- Disable python3 provider
-vim.g.loaded_ruby_provider = 0    -- Disable ruby provider
-vim.g.loaded_perl_provider = 0    -- Disable perl provider
-vim.g.root_spec = { "cwd" }
-
---Rounded border for all floating window
-vim.o.winborder = 'rounded'
