@@ -1,12 +1,14 @@
 return {
   {
     "nvim-mini/mini.ai",
+    lazy = false,
     opts = {
       n_lines = 500,
     },
   },
   {
     "nvim-mini/mini.pairs",
+    lazy = false,
     opts = {
       mappings = {
         ["("] = { action = "open", pair = "()" },
@@ -17,6 +19,7 @@ return {
   },
   {
     "nvim-mini/mini.bracketed",
+    lazy = false,
     opts = {
       buffer     = { suffix = 'b', options = {} },
       comment    = { suffix = 'c', options = {} },
@@ -34,6 +37,6 @@ return {
       yank       = { suffix = 'y', options = {} },
     }
   },
-  { 'nvim-mini/mini.comment' },
-  { 'nvim-mini/mini.surround' },
+  { 'nvim-mini/mini.comment', lazy = false, },
+  { 'nvim-mini/mini.surround', lazy = false,},
 }
